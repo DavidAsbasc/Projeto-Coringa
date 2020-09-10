@@ -7,7 +7,7 @@
 <body>
     <div id="corpo-form-cad">
     <h1>Cadastrar</h1>
-    <form method="POST" ></form>
+    <form method="POST">
         <input type="text" placeholder="Nome completo">
         <input type="text" placeholder="Telefone">
         <input type="email" placeholder="Usuario">
@@ -17,9 +17,6 @@
        
     </form>
 </div>
-<?php
 
-
-?>
 </body>
 </htmk>

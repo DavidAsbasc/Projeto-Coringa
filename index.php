@@ -7,13 +7,15 @@
 <body>
     <div id="corpo-form">
     <h1>Entrar</h1>
-    <form method="POST" >
+    <form method="POST">
         <input type="cpf" placeholder="usuario">
         <input type="senha" placeholder="password">
         <input type="submit" value="ACESSAR">
-        <a href="Cadastrar.php">Esqueceu a senha?<strong>Cadastrar nova senha!</strong>
+        <a href="cadastrar.php">Esqueceu a senha?<strong>Cadastrar nova senha!</strong>
     </form>
 </div>
+<?php
 
+?>
 </body>
 </htmk>
