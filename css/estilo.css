@@ -5,7 +5,7 @@
 body{
     background-image: url("imagens/fundo3.jpg");
     background-position: 50% 75%;
-    color: black;
+    color: red;
     font-family: arial;
 }
 input{
@@ -14,7 +14,7 @@ input{
     width: 400px;
     margin: 10px;
     border-radius: 30px;
-    border: 1px solid black;
+    border: 1px solid red;
     font-size: 16pt;
     padding: 10px 20px;
     background-color: rgba(255,255,255,0.01);
@@ -40,7 +40,7 @@ div#corpo-form h1, div#corpo-form-cad h1{
 }
 
 a{
-    color: black;
+    color: red;
     text-decoration: none;
     text-align: center;
     display: block;
