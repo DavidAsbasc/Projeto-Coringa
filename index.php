@@ -8,10 +8,10 @@
     <div id="corpo-form">
     <h1>Entrar</h1>
     <form method="POST">
-        <input type="cpf" placeholder="usuario">
-        <input type="senha" placeholder="password">
+        <input type="cpf" placeholder="usuario" name="cpf">
+        <input type="password" placeholder="senha" name="senha">
         <input type="submit" value="ACESSAR">
-        <a href="cadastrar.html">Esqueceu a senha?<strong>Cadastrar nova senha!</strong>
+        <a href="cadastrar.php">Esqueceu a senha?<strong>Cadastrar nova senha!</strong>
     </form>
 </div>
 <?php
