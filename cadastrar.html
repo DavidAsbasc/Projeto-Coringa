@@ -31,7 +31,7 @@ if(isset($_POST['nome']))
     $senha = addslashes($_POST['senha']);
     $confirmarsenha = addslashes($_POST['confsenha']);
     //verificar se esta preenchido
-    if(!empty($nome) && !empty($telefone) && !empty($email) && !empty($senha) && !empty($confirmarsenha)
+    if(!empty($nome) && !empty($telefone) && !empty($email) && !empty($senha) && !empty($confirmarsenha));
     {
         $u->conectar("projeto_coringa","localhost","root","");
         if($u->msgErro =="")//esta tudo ok
